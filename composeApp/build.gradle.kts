@@ -43,6 +43,10 @@ kotlin {
             implementation(compose.components.uiToolingPreview)
             implementation(libs.androidx.lifecycle.viewmodel)
             implementation(libs.androidx.lifecycle.runtime.compose)
+            implementation(compose.materialIconsExtended)
+            implementation(libs.voyager.navigator)
+            implementation(libs.voyager.transitions)
+            implementation(libs.voyager.tabNavigator)
             implementation(libs.kotlinx.datetime)
             implementation("io.github.koalaplot:koalaplot-core:0.8.0")
         }

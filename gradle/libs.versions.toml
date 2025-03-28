@@ -19,6 +19,7 @@ kotlinxDatetime = "0.4.1"
 aay-chart = "0.0.5"
 runtimeAndroid = "1.7.8"
 ycharts = "2.1.0"
+voyager = "1.1.0-beta02"
 
 [libraries]
 chart = { module = "io.github.thechance101:chart", version.ref = "chart" }
@@ -37,6 +38,10 @@ androidx-lifecycle-runtime-compose = { group = "org.jetbrains.androidx.lifecycle
 kotlinx-datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "kotlinxDatetime" }
 androidx-runtime-android = { group = "androidx.compose.runtime", name = "runtime-android", version.ref = "runtimeAndroid" }
 ycharts = { module = "co.yml:ycharts", version.ref = "ycharts" }
+
+voyager-navigator = { module = "cafe.adriel.voyager:voyager-navigator", version.ref = "voyager" }
+voyager-transitions = { module = "cafe.adriel.voyager:voyager-transitions", version.ref = "voyager" }
+voyager-tabNavigator = { module = "cafe.adriel.voyager:voyager-tab-navigator", version.ref = "voyager" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
